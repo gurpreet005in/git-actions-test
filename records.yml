@@ -1,0 +1,17 @@
+collection: 
+      - name: Kartar 
+        age: 40
+        height: 6
+        salary: 200000
+        address:
+            street: valleybrook drive
+            city: brecksville
+            state: ohio
+      - name: Pargat 
+        age: 40
+        height: 6
+        salary: 200000
+        address:
+            street: valleybrook drive
+            city: brecksville
+            state: ohio   
