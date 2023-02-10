@@ -1,0 +1,13 @@
+name: Shell Commands
+on: [push]
+jobs:
+    run-shell-commands:
+       runs-on: ubuntu-latest
+       steps:
+         - name: echo string
+           run: echo "WJKK WJKF Ji"
+         - name: multiline Commands
+           run: |
+              node -v
+              npm -v
+                  
