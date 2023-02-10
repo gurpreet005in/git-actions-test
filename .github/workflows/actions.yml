@@ -11,7 +11,7 @@ jobs:
               pwd
               ls
           - name: checkout action 
-            uses: actions/checkout@latest
+            uses: actions/checkout@v3.3.0
           - name: current Directory
             run: |
               pwd
