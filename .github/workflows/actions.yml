@@ -12,10 +12,14 @@ jobs:
               ls
           - name: checkout action 
             uses: actions/checkout@v3.3.0
-          - name: current Directory
+          - name: List files
             run: |
               pwd
               ls -a  
+              echo $GITHUB_SHA
+              echo $GITHUB_RESPOSITORY
+              echo $GITHUB_WORKSPACE
+              echo "${{github.token}}"
           - name: Simple Js Actions
             id: Greeting
             uses: actions/hello-world-javascript-action@v1.1
